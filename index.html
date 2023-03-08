@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calificaciones</title>
+
+  </head>
+  <body>
+    <main>
+      <h2>
+        Ingresa las calificaciones del alumno para calcular nota la definitiva.
+      </h2>
+      <form id="form">
+        <input type="number" placeholder="Promerio 1" name="p1" required />
+        <input type="number" placeholder="Promerio 2" name="p2" required />
+        <input type="number" placeholder="Promerio 3" name="p3" required />
+        <input type="number" placeholder="Examen Final" name="e1" required />
+        <input type="number" placeholder="Trabajo Final" name="t1" required />
+        <input type="submit" value="Calcular" id="button" />
+      </form>
+
+      <p id="respuesta-container"></p>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
